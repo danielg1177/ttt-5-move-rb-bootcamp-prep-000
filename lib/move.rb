@@ -10,6 +10,6 @@ def input_to_index(move)
   index = move.to_i - 1
 end
 
-def update_array_at_with (board, index, character = "X")
+def move (board, index, character = "X")
   board[index] = character
 end
